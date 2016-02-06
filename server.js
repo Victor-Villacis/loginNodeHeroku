@@ -1,5 +1,6 @@
 var express = require('express');
 var omdb = require('omdb');
+var GitHubApi = require('github');
 
 var app = express();
 
